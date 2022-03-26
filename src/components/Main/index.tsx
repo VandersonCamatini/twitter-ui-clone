@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Header,ProfileInfo, ProfilePage, BottomMenu, BackIcon, HomeIcon, SearchIcon, BellIcon, EmailIcon } from './styles';
+import ProfilePage from '../ProfilePage';
+import { Container, Header,ProfileInfo, BottomMenu, BackIcon, HomeIcon, SearchIcon, BellIcon, EmailIcon } from './styles';
 
 const Main = () => {
   return (
