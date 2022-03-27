@@ -1,4 +1,5 @@
 import React from 'react';
+import Feed from '../Feed';
 import { Container, Banner, Avatar, EditButton, ProfileData, LocationIcon, CakeIcon, Followage } from './styles';
 
 const ProfilePage = (): React.ReactElement => {
@@ -40,6 +41,8 @@ const ProfilePage = (): React.ReactElement => {
         </span>
       </Followage>
     </ProfileData>
+
+    <Feed />
   </Container>;
 }
 
